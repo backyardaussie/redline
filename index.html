@@ -44,7 +44,6 @@
     <!-- Preload critical CSS -->
     <link rel="preload" href="slick.css" as="style">
     <link rel="preload" href="/slick-theme.css" as="style">
-    <link rel="preload" href="/output.css" as="style">
     
     <style>
         /* Insert critical CSS here */
@@ -79,6 +78,7 @@
     </style>
 
     <!-- Non-critical CSS loaded asynchronously -->
+    <link rel="stylesheet" type="text/css" href="/output.css">
     <link rel="stylesheet" type="text/css" href="/slick.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" type="text/css" href="/slick-theme.css" media="print" onload="this.media='all'">
 </head>
